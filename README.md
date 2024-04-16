@@ -13,7 +13,7 @@ A repo to help developers execute the right git command without getting conflict
 ## ⭐ How it works
 
 
-** create empty repository  :
+<p style='font-weight:50px'> create empty repository</p>  :
 ``  git init`` 
 
 <hr>
