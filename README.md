@@ -91,7 +91,9 @@
 * **Open Source Ecosystem**: Git is open source and has a vibrant ecosystem of tools, extensions, and community support.
 
 #### 🔴🔴 Please do not work with your teammates on the master branch 🔴🔴
+
 <br />
+
 #### 🔘🔘 Solution to make another branch and should be named as develop to work on it 🔘🔘
 
 
