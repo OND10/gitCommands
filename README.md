@@ -1,81 +1,109 @@
-
-# Git Commands <img width='45' height='50' src='https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png' alt='gitImage'> 
-
-
-🎉 First of all, thanks for taking the time to read this blog! 🎉
+# Git Commands <img width='45' src='https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png' alt='git Image'> 
 
 
-### Collaboration between team members during development and provide a powerful and flexible framework for version control.
+🎉 Welcome to this guide on Git commands, thanks for taking the time to read this blog! 🎉
 
-## ⭐ How it works
+## 🤔 So what is git?
 
-##### Create an empty repository:
+Git is a version control, it is a powerful tool for collaboration among team members during development. It offers a flexible framework for version control, allowing seamless coordination and management of project changes.
 
-`` git init`` 
+## ⭐ How Git Works
+Read [this to](how-git-works.md) understand how Git works.
 
-<br />
+## ⏩ Quick Start Guide
 
-##### set your name and email :
-`` git config --global user.name "your name"`` 
-<br />
-`` git config --global user.email "email@example.com"`` 
+### Create an Empty Repository:
 
-<br />
+```bash
+git init
+```
 
-##### link your local repo. with github a repository : (only if you have an empty repository on github and you are the first one to add things to it) :
-`` git remote add origin (link of your repository on github)`` 
+### Configure Your Name and Email:
 
-<br />
+```bash
+git config --global user.name "Your Name"
 
-##### To confirm Changes :
-- frst adding them to stagging area :
-  `` git add .`` 
+git config --global user.email "email@example.com"
+```
+
+### Link Your Local Repository with a GitHub Repository:
+
+(Only necessary if you have an empty repository on GitHub and you're the first contributor)
+
+```bash
+git remote add origin <link_to_your_repository_on_github>
+```
+
+### Confirming Changes:
+
+- First, add changes to the staging area:
+  ```bash
+  git add .
+  ```
   
-- then commit with a suitable commit message :
-`` git commit -m "your commit message"`` 
+- Then, commit with an appropriate message:
+  ```bash
+  git commit -m "Your commit message"
+  ```
 
-<br />
+### Viewing Commit History:
 
-##### to view commits log (history)  :
-`` git log`` 
+To view commit history:
+```bash
+git log
+```
 
-<br />
+### Pushing Commits to GitHub:
 
-##### to push your commits to the github repository :
-`` git push origin master  (or branch name instead of master)`` 
+To push your commits to the GitHub repository:
 
-<br />
+```bash
+git push origin master  (or branch name instead of master)
+```
 
-##### to download the repository to your pc (cloning) :
-`` git clone http............ (link of the repo.)`` 
+### Cloning a Repository to Your PC:
 
+To download the repository to your PC (cloning):
 
-<br />
+```bash
+git clone <repository_link>
+```
 
-#### ((don't type (git remote) as you have the remote already after cloning !!))
+### Pulling the Latest Updates:
 
-<br />
+To pull the latest updates from GitHub to your computer:
 
-##### to pull the latest update from github to your computer ##### :
-`` git pull origin master (or branch name instead of master)`` 
-<br />
+```bash
+git pull origin master (or branch name instead of master)
+```
 
-##### if you coded with full of wrong codes and needed to rollback your changes to the last comment :
-`` git reset --hard`` 
-<br />
+### Rolling Back Changes:
 
-<hr style='height:20px;color:grey;'>
+If you need to revert to the last commit due to errors:
 
-### Branches 
+```bash
+git reset --hard
+```
+
+---
+
+## Branches 
  
-#####  to view the current branch #####
-`` git branch`` 
+###  to view the current branch
+
+```bash
+git branch
+```
 
 
-##### create a new branch and switch to it#####:
-`` git checkout -b (branch name) `` 
+### create a new branch and switch to it:
 
-<br />
+```bash
+git checkout -b (branch name)
+``` 
+
+--- 
+
 ## 🎨 Features
 
 - **History Tracking**: Git allows developers to track changes made to their codebase over time.
@@ -90,14 +118,9 @@
 * **Automation and Integration**: Git can be integrated with various tools and services through APIs and hooks, enabling automation of tasks such as testing, deployment, and issue tracking.
 * **Open Source Ecosystem**: Git is open source and has a vibrant ecosystem of tools, extensions, and community support.
 
-#### 🔴🔴 Please do not work with your teammates on the master branch 🔴🔴
+### 🔴🔴 Please do not work with your teammates on the `master` branch. 🔴🔴
 
-<br />
-
-#### 🔘🔘 Solution to make another branch and should be named as develop to work on it 🔘🔘
+### 🔘🔘 Solution: make another branch and should be named as develop to work on it 🔘🔘
 
 
 <h4 style='text-align:center'>  Hope you are coding well with 🖤 </h4>
-
-
-
