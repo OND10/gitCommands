@@ -13,7 +13,7 @@ A repo to help developers execute the right git command without getting conflict
 ## ⭐ How it works
 
 
-** create empty repository ** :
+** create empty repository  :
 ``  git init`` 
 
 <hr>
@@ -66,7 +66,7 @@ A repo to help developers execute the right git command without getting conflict
 
 <hr>
 
-** if you coded with full of wrong codes and needed to rollback your changes to the last comment **
+** if you coded with full of wrong codes and needed to rollback your changes to the last comment :
 `` git reset --hard`` 
 
 
