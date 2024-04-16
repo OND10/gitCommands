@@ -1,9 +1,9 @@
 
-# Git Commands <img width='45' height='50' src='https://image-url.com/git-icon.png' alt='gitImage'> 
+# Git Commands <img width='45' height='50' src='[https://image-url.com/git-icon.png](https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png)' alt='gitImage'> 
 
-A repository to help developers execute the right Git commands without conflicts with team members.
 
 🎉 First of all, thanks for taking the time to read this blog! 🎉
+
 
 ### Collaboration between team members during development and provide a powerful and flexible framework for version control.
 
@@ -53,15 +53,15 @@ A repository to help developers execute the right Git commands without conflicts
 
 #### ((don't type (git remote) as you have the remote already after cloning !!))
 
-
+<br />
 
 ##### to pull the latest update from github to your computer ##### :
 `` git pull origin master (or branch name instead of master)`` 
-
+<br />
 
 ##### if you coded with full of wrong codes and needed to rollback your changes to the last comment :
 `` git reset --hard`` 
-
+<br />
 
 <hr style='height:20px;color:grey;'>
 
@@ -90,8 +90,11 @@ A repository to help developers execute the right Git commands without conflicts
 * **Open Source Ecosystem**: Git is open source and has a vibrant ecosystem of tools, extensions, and community support.
 
 #### 🔴🔴 Please do not work with your teammates on the master branch 🔴🔴
-#### 🔘🔘 Solution to make another branch and should be named as develop 🔘🔘
+<br />
+#### 🔘🔘 Solution to make another branch and should be named as develop to work on it 🔘🔘
 
-#### Hope you are coding well with 🖤
+
+<h4 style='text-align:center'>  Hope you are coding well with 🖤 </h4>
+
 
 
