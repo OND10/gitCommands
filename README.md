@@ -1,5 +1,5 @@
 
-# Git Commands <img width='45' height='50' src='https://image-url.com/git-icon.png' alt='gitImage'> 
+# Git Commands <img width='45' height='50' src='https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png' alt='gitImage'> 
 
 
 🎉 First of all, thanks for taking the time to read this blog! 🎉
