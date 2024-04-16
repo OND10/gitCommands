@@ -13,17 +13,18 @@ A repository to help developers execute the right Git commands without conflicts
 
 `` git init`` 
 
-#####
+<br />
 
 ##### set your name and email :
 `` git config --global user.name "your name"`` 
 `` git config --global user.email "email@example.com"`` 
 
+<br />
 
 ##### link your local repo. with github a repository : (only if you have an empty repository on github and you are the first one to add things to it) :
 `` git remote add origin (link of your repository on github)`` 
 
-
+<br />
 
 ##### To confirm Changes :
 - frst adding them to stagging area :
@@ -32,20 +33,23 @@ A repository to help developers execute the right Git commands without conflicts
 - then commit with a suitable commit message :
 `` git commit -m "your commit message"`` 
 
-
+<br />
 
 ##### to view commits log (history)  :
 `` git log`` 
 
+<br />
 
 ##### to push your commits to the github repository :
 `` git push origin master  (or branch name instead of master)`` 
 
+<br />
 
 ##### to download the repository to your pc (cloning) :
 `` git clone http............ (link of the repo.)`` 
 
 
+<br />
 
 #### ((don't type (git remote) as you have the remote already after cloning !!))
 
