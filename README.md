@@ -14,23 +14,23 @@ A repo to help developers execute the right git command without getting conflict
 
 
 ##### create empty repository : 
-``  git init`` 
+`` git init`` 
 
 <hr>
 
-** set your name and email ** :
+##### set your name and email :
 `` git config --global user.name "your name"`` 
 `` git config --global user.email "email@example.com"`` 
 
 <hr>
 
-** link your local repo. with github a repository : (only if you have an empty repository on github and you are the first one to add things to it) **
+##### link your local repo. with github a repository : (only if you have an empty repository on github and you are the first one to add things to it) :
 `` git remote add origin (link of your repository on github)`` 
 
 
 <hr>
 
-** To confirm Changes**:
+##### To confirm Changes :
 - frst adding them to stagging area :
   `` git add .`` 
   
@@ -40,17 +40,17 @@ A repo to help developers execute the right git command without getting conflict
 
 <hr>
 
-** to view commits log (history) ** :
+##### to view commits log (history)  :
 `` git log`` 
 
 <hr>
 
-** to push your commits to the github repository **:
+##### to push your commits to the github repository :
 `` git push origin master  (or branch name instead of master)`` 
 
 <hr>
 
-** to download the repository to your pc (cloning) **:
+##### to download the repository to your pc (cloning) :
 `` git clone http............ (link of the repo.)`` 
 
 
@@ -61,30 +61,30 @@ A repo to help developers execute the right git command without getting conflict
 
 <hr>
 
-** to pull the latest update from github to your computer ** :
+##### to pull the latest update from github to your computer ##### :
 `` git pull origin master (or branch name instead of master)`` 
 
 <hr>
 
-** if you coded with full of wrong codes and needed to rollback your changes to the last comment :
+##### if you coded with full of wrong codes and needed to rollback your changes to the last comment :
 `` git reset --hard`` 
 
 
 <hr>
 
-#### Branches 
+### Branches 
  
-**  to view the current branch **
+#####  to view the current branch #####
 `` git branch`` 
 
 
-** create a new branch and switch to it**:
-``git checkout -b (branch name) `` 
+##### create a new branch and switch to it#####:
+`` git checkout -b (branch name) `` 
 
 
 ## 🎨 Features
 
-- ***History Tracking**: Git allows developers to track changes made to their codebase over time.
+- **History Tracking**: Git allows developers to track changes made to their codebase over time.
 * **Branching and Merging**: Git enables developers to work on multiple features or fixes simultaneously by creating branches.
 * **Collaboration**: Git facilitates collaboration among multiple developers working on the same project.
 * **Remote Repositories**: Git supports remote repositories hosted on platforms like GitHub, GitLab, or Bitbucket.
