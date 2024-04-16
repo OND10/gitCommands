@@ -1,5 +1,5 @@
 
-# Git Commands <img width='45' height='50' src='[https://image-url.com/git-icon.png](https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png)' alt='gitImage'> 
+# Git Commands <img width='45' height='50' src='https://image-url.com/git-icon.png' alt='gitImage'> 
 
 
 🎉 First of all, thanks for taking the time to read this blog! 🎉
@@ -17,6 +17,7 @@
 
 ##### set your name and email :
 `` git config --global user.name "your name"`` 
+<br />
 `` git config --global user.email "email@example.com"`` 
 
 <br />
@@ -74,7 +75,7 @@
 ##### create a new branch and switch to it#####:
 `` git checkout -b (branch name) `` 
 
-
+<br />
 ## 🎨 Features
 
 - **History Tracking**: Git allows developers to track changes made to their codebase over time.
