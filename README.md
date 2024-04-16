@@ -70,7 +70,7 @@ A repo to help developers execute the right git command without getting conflict
 `` git reset --hard`` 
 
 
-<hr>
+<hr style='width:10px;color:grey;'>
 
 ### Branches 
  
